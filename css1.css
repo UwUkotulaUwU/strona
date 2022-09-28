@@ -1,0 +1,132 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://pl.fotoomnia.com/zdjecia/thu/fd76a691ab6e5ced4a4f166c413d3c86.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgba(26, 26, 26, 0.6);
+}
+#big {
+    width: 100%;
+    display: block;
+}
+
+nav {
+    background-color: rgb(16, 39, 21); 
+    
+}
+
+a.menu {
+    display: inline-block;
+    width: 33.33%;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+a.menu:hover {
+    background-color: rgb(0, 216, 18);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+
+}
+
+.active {
+    background-color: rgb(0, 216, 18);
+}
+
+article {
+    margin-top:15px;
+    margin-bottom:15px;
+    padding: 5px 20px;
+}
+
+article h1 {
+    font-size: 27px;
+    text-align: center;
+    margin: 0 10% 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(0, 255, 76);
+    color: whitesmoke;
+}
+
+img.left {
+    float:left;
+    padding: 0 10px 10px 0;
+    width: 40%;
+    border-radius: 25%;
+}
+
+article p {
+    text-align: justify;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 1px 0;
+    color: whitesmoke;
+}
+
+footer {
+    height: 30px;
+    background-color: rgba(0, 22, 2, 0.8);
+    color: rgb(235, 229, 223);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+table {
+    width:100%;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-style:initial;
+    
+}
+
+table h2 {
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+
+table p {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(233, 233, 233);
+    color:rgb(0, 0, 0)
+}
+
+img.right {
+    width: 100%;
+    display: block;
+}
+
+p.a {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: whitesmoke;
+}
+article.vi {
+    padding-bottom: 50px;
+    border-bottom: 5px solid goldenrod;
+}
+hr.b {
+    margin-bottom: 48px;
+}
+
+
+    
+
+
